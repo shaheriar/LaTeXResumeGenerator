@@ -1,0 +1,90 @@
+{
+    "Types": ["ds", "embedded", "robotics", "swe"],
+    "name": "John Doe",
+    "email": "johndoe@gmail.com",
+    "phone": "+1(999)999-9999",
+    "linkedin": "https://www.linkedin.com/in/johndoe",
+    "github": "https://www.github.com/johndoe",
+    "website": "https://johndoe.github.io",
+    "location": "Atlanta, GA",
+    "Education": [
+        {
+            "degree": "Master of Science",
+            "major": "Computer Engineering",
+            "university": "University of Banana, Apple",
+            "from": "Sep 2022",
+            "to": "Jun 2023",
+            "location": "Phoenix, AZ",
+            "gpa": "4.0"
+        },
+        {
+            "degree": "Bachelor of Science",
+            "major": "Computer Engineering",
+            "university": "University of Banana, Apple",
+            "from": "Sep 2018",
+            "to": "Jun 2022",
+            "location": "Phoenix, AZ",
+            "gpa": "4.0"
+        }
+    ],
+    "Experience": [
+        {
+            "tags": ["ds", "embedded"],
+            "title": "Software Engineer I",
+            "company": "Some Company",
+            "from": "Nov 2002",
+            "to": "Present",
+            "location": "Somewhere, XD",
+            "description": [
+                "Designing software stuff and things",
+                "Collaborating with people and stuff",
+                "Coding etc etc",
+                "Other stuff and things"
+            ]
+        },
+        {
+            "tags": ["robotics", "swe"],
+            "title": "Research Scientist",
+            "company": "Some lab",
+            "from": "Mar 2021",
+            "to": "Jun 2024",
+            "location": "Los Angeles, CA",
+            "description": [
+                "Hmmmm fascinating research stuff",
+                "Consuming dangerous chemicals",
+                "Creating dangerous robots"
+            ]
+        }
+    ],
+    "Projects": [
+        {
+            "tags": ["ds", "swe"],
+            "title": "Beep Boop",
+            "link": "https://github.com/johndoe/beepboop",
+            "description": "wow amazing things and stuff"
+        },
+        {
+            "tags": ["embedded"],
+            "title": "Beep Boop but in embedded systems",
+            "link": "https://github.com/johndoe/beepboop",
+            "description": "wow amazing things and stuff"
+        }
+    ],
+    "Skills": {
+        "ProgrammingLanguages": [
+            "C", "C++", "Python", "SQL", "Java", "Ruby", "MATLAB"
+        ],
+        "Software": {
+                "ds": ["Jupyter Notebook", "Pandas", "Numpy", "Matplotlib", "Seaborn", "Scikit-learn", "TensorFlow", "Keras", "PyTorch", "OpenCV", "PowerBI", "Google Firebase", "Git"],
+                "embedded": ["Linux", "Git", "ROS", "Gazebo"],
+                "robotics": ["Linux", "ROS", "Gazebo", "Scikit-learn", "TensorFlow", "Keras", "PyTorch", "OpenCV"],
+                "swe": ["Flutter", "Android Studio", "Google Firebase", "Scikit-learn", "TensorFlow", "Keras", "PyTorch", "OpenCV"]
+        },
+        "Technologies": {
+                "ds" : ["Machine Learning", "Deep Learning", "Data Mining", "Data Visualization", "Big Data", "Natural Language Processing", "Computer Vision"],
+                "embedded": ["Real-Time Embedded Systems", "Real-Time Operating Systems", "Object Oriented Design", "UML", "Agile"],
+                "robotics": ["Robot Operating System", "Gazebo", "Simultaneous Localization and Mapping", "Path Planning", "Computer Vision", "Deep Learning"],
+                "swe": ["Agile", "Scrum", "Kanban", "Test-Driven Development", "Behavior-Driven Development", "Continuous Integration", "Continuous Deployment"]
+        }
+    }
+}
