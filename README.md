@@ -15,3 +15,4 @@ LuaLaTeX Resume Generator using Python and LuaLatex, using the McDowell CV class
 ## Notes
 - Currently, the python script is catered towards my tech resume but you can edit it however you want.
 - The OS commands at the bottom of the script are for Windows but you can edit it for your own OS.
+- If you dont have LaTeX installed on your system, simply upload the `mcdowellcv.cls` file along with the generated .tex file to Overleaf and it will compile the PDF for you.
