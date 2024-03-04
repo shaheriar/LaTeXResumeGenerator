@@ -1,4 +1,4 @@
-# LaTeXResumeGenerator
+# LaTeX Resume Generator
 LuaLaTeX Resume Generator using Python and LuaLatex
 
 ## Requirements
