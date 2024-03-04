@@ -110,7 +110,7 @@ def main():
     with open("configs/data.json", "r") as file:
         data = json.load(file)
 
-    types = data['Types']
+    types = data['Tags']
     
     for type in types:
         latex_resume = generate_latex_resume(data, type.lower())

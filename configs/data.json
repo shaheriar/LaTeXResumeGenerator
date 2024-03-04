@@ -1,5 +1,5 @@
 {
-    "Types": ["ds", "embedded", "robotics", "swe"],
+    "Tags": ["ds", "embedded", "robotics", "swe"],
     "name": "John Doe",
     "email": "johndoe@gmail.com",
     "phone": "+1(999)999-9999",
