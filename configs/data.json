@@ -54,9 +54,34 @@
                 "Consuming dangerous chemicals",
                 "Creating dangerous robots"
             ]
+        },
+        {
+            "tags": ["robotics", "swe"],
+            "title": "Research Scientist",
+            "company": "Some lab",
+            "from": "Mar 2021",
+            "to": "Jun 2024",
+            "location": "Los Angeles, CA",
+            "description": [
+                "Hmmmm fascinating research stuff",
+                "Consuming dangerous chemicals",
+                "Creating dangerous robots"
+            ]
         }
     ],
     "Projects": [
+        {
+            "tags": ["ds", "swe"],
+            "title": "Beep Boop",
+            "link": "https://github.com/johndoe/beepboop",
+            "description": "wow amazing things and stuff"
+        },
+        {
+            "tags": ["ds", "swe"],
+            "title": "Beep Boop",
+            "link": "https://github.com/johndoe/beepboop",
+            "description": "wow amazing things and stuff"
+        },
         {
             "tags": ["ds", "swe"],
             "title": "Beep Boop",
