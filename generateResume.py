@@ -108,9 +108,9 @@ def generateResume(resume, data, type):
 
     # Change the order of the sections to change the order of the resume
     resume += Experience(data, type)
-    resume += Education(data)
     resume += Projects(data, type)
     resume += Skills(data, type)
+    resume += Education(data)
 
     return resume
 

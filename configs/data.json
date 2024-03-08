@@ -6,93 +6,145 @@
     "linkedin": "https://www.linkedin.com/in/johndoe",
     "github": "https://www.github.com/johndoe",
     "website": "https://johndoe.github.io",
-    "location": "Atlanta, GA",
+    "location": "City, State",
     "Education": [
         {
             "degree": "Master of Science",
             "major": "Computer Engineering",
             "university": "University of Banana, Apple",
-            "from": "Sep 2022",
-            "to": "Jun 2023",
-            "location": "Phoenix, AZ",
+            "from": "Month Year",
+            "to": "Month Year",
+            "location": "City, State",
             "gpa": "4.0"
         },
         {
             "degree": "Bachelor of Science",
             "major": "Computer Engineering",
             "university": "University of Banana, Apple",
-            "from": "Sep 2018",
-            "to": "Jun 2022",
-            "location": "Phoenix, AZ",
+            "from": "Month Year",
+            "to": "Month Year",
+            "location": "City, State",
             "gpa": "4.0"
         }
     ],
     "Experience": [
         {
-            "tags": ["ds", "embedded"],
-            "title": "Software Engineer I",
-            "company": "Some Company",
-            "from": "Nov 2002",
-            "to": "Present",
-            "location": "Somewhere, XD",
+            "tags": ["ds", "embedded", "robotics", "swe"],
+            "title": "Title 1",
+            "company": "Company 1",
+            "from": "Month Year",
+            "to": "Month Year",
+            "location": "Location, State",
             "description": [
-                "Designing software stuff and things",
-                "Collaborating with people and stuff",
-                "Coding etc etc",
-                "Other stuff and things"
+                "Description 1",
+                "Description 2",
+                "Description 3",
+                "Description 4"
             ]
         },
         {
-            "tags": ["robotics", "swe"],
-            "title": "Research Scientist",
-            "company": "Some lab",
-            "from": "Mar 2021",
-            "to": "Jun 2024",
-            "location": "Los Angeles, CA",
+            "tags": ["ds", "embedded", "robotics", "swe"],
+            "title": "Title 2",
+            "company": "Company 2",
+            "from": "Month Year",
+            "to": "Month Year",
+            "location": "Location, State",
             "description": [
-                "Hmmmm fascinating research stuff",
-                "Consuming dangerous chemicals",
-                "Creating dangerous robots"
+                "Description 1",
+                "Description 2",
+                "Description 3",
+                "Description 4"
             ]
         },
         {
-            "tags": ["robotics", "swe"],
-            "title": "Research Scientist",
-            "company": "Some lab",
-            "from": "Mar 2021",
-            "to": "Jun 2024",
-            "location": "Los Angeles, CA",
+            "tags": ["ds", "embedded", "robotics", "swe"],
+            "title": "Title 3",
+            "company": "Company 3",
+            "from": "Month Year",
+            "to": "Month Year",
+            "location": "Location, State",
             "description": [
-                "Hmmmm fascinating research stuff",
-                "Consuming dangerous chemicals",
-                "Creating dangerous robots"
+                "Description 1",
+                "Description 2",
+                "Description 3",
+                "Description 4"
+            ]
+        },
+        {
+            "tags": ["ds", "embedded", "robotics", "swe"],
+            "title": "Title 4",
+            "company": "Company 4",
+            "from": "Month Year",
+            "to": "Month Year",
+            "location": "Location, State",
+            "description": [
+                "Description 1",
+                "Description 2",
+                "Description 3",
+                "Description 4"
             ]
         }
     ],
     "Projects": [
         {
-            "tags": ["ds", "swe"],
-            "title": "Beep Boop",
+            "tags": ["swe"],
+            "title": "SWE Project 1",
             "link": "https://github.com/johndoe/beepboop",
-            "description": "wow amazing things and stuff"
+            "description": "Description of the project goes here."
+        },
+        {
+            "tags": ["swe"],
+            "title": "SWE Project 2",
+            "link": "https://github.com/johndoe/beepboop",
+            "description": "Description of the project goes here."
         },
         {
             "tags": ["ds", "swe"],
-            "title": "Beep Boop",
+            "title": "DS, SWE Project 1",
             "link": "https://github.com/johndoe/beepboop",
-            "description": "wow amazing things and stuff"
+            "description": "Description of the project goes here."
         },
         {
             "tags": ["ds", "swe"],
-            "title": "Beep Boop",
+            "title": "DS, SWE Project 2",
             "link": "https://github.com/johndoe/beepboop",
-            "description": "wow amazing things and stuff"
+            "description": "Description of the project goes here."
+        },
+        {
+            "tags": ["ds"],
+            "title": "DS Project 1",
+            "link": "https://github.com/johndoe/beepboop",
+            "description": "Description of the project goes here."
+        },
+        {
+            "tags": ["ds"],
+            "title": "DS Project 2",
+            "link": "https://github.com/johndoe/beepboop",
+            "description": "Description of the project goes here."
         },
         {
             "tags": ["embedded"],
-            "title": "Beep Boop but in embedded systems",
+            "title": "Embedded Project 1",
             "link": "https://github.com/johndoe/beepboop",
-            "description": "wow amazing things and stuff"
+            "description": "Description of the project goes here."
+        },
+        {
+            "tags": ["embedded"],
+            "title": "Embedded Project 2",
+            "link": "https://github.com/johndoe/beepboop",
+            "description": "Description of the project goes here."
+        },
+        {
+            "tags": ["robotics"],
+            "title": "Robotics Project 1",
+            "link": "https://github.com/johndoe/beepboop",
+            "description": "Description of the project goes here."
+        },
+        {
+            "tags": ["robotics"],
+            "title": "Robotics Project 2",
+            "link": "https://github.com/johndoe/beepboop",
+            "description": "Description of the project goes here."
         }
     ],
     "Skills": {
