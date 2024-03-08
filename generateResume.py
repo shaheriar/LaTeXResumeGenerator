@@ -100,12 +100,12 @@ def Skills(data, type):
     return resumeStr
 
 #### End ####
-def End():
+def Footer():
     return r'''
 \end{document}'''
 
 def generateResume(resume, data, type):
-    
+
     # Change the order of the sections to change the order of the resume
     resume += Experience(data, type)
     resume += Education(data)
@@ -122,7 +122,7 @@ def main():
         latex_resume = generateResume(Header(data), data, type.lower())
         filepath = "GeneratedTexFiles/"+ type.capitalize() + "Resume.tex"
         with open(filepath, "w") as file:
-            file.write(latex_resume + End())
+            file.write(latex_resume + Footer())
         os.system("lualatex -interaction=nonstopmode -output-directory=GeneratedPDFs " + filepath)
         os.system("del GeneratedPDFs\\*.log GeneratedPDFs\*.aux GeneratedPDFs\*.out")
 
