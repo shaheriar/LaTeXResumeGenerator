@@ -1,10 +1,9 @@
 import json
-import os
+import subprocess
 
 #### Header ####
 def Header(data):
-    return r'''
-%%!TEX program = lualatex
+    return r'''%%!TEX program = lualatex
 
 \documentclass[]{../mcdowellcv}
 
@@ -120,11 +119,16 @@ def main():
 
     for type in data['Tags']:
         latex_resume = generateResume(Header(data), data, type.lower())
-        filepath = "GeneratedTexFiles/"+ type.capitalize() + "Resume.tex"
+        filepath = "TexFiles/"+ type.capitalize() + "Resume.tex"
         with open(filepath, "w") as file:
             file.write(latex_resume + Footer())
-        os.system("lualatex -interaction=nonstopmode -output-directory=GeneratedPDFs " + filepath)
-        os.system("del GeneratedPDFs\*.log GeneratedPDFs\*.aux GeneratedPDFs\*.out")
+
+        # Compile into PDF
+        subprocess.run(["lualatex", "-output-directory=PDFs", "TexFiles/{}Resume.tex".format(type.capitalize())])
+
+    # Clean directory of auxiliary files
+    for ext in ["aux", "log", "out"]:
+        subprocess.call("rm PDFs/*."+ext, shell=True)
 
 if __name__ == "__main__":
     main()
