@@ -124,7 +124,7 @@ def main():
         with open(filepath, "w") as file:
             file.write(latex_resume + Footer())
         os.system("lualatex -interaction=nonstopmode -output-directory=GeneratedPDFs " + filepath)
-        os.system("del GeneratedPDFs\\*.log GeneratedPDFs\*.aux GeneratedPDFs\*.out")
+        os.system("del GeneratedPDFs\*.log GeneratedPDFs\*.aux GeneratedPDFs\*.out")
 
 if __name__ == "__main__":
     main()
