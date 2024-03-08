@@ -103,25 +103,18 @@ def Footer():
     return r'''
 \end{document}'''
 
-def generateResume(resume, data, type):
-
-    # Change the order of the sections to change the order of the resume
-    resume += Experience(data, type)
-    resume += Projects(data, type)
-    resume += Skills(data, type)
-    resume += Education(data)
-
-    return resume
+# Change the order of the sections to change the order of the resume
+def generateResume(data, type):
+    return Experience(data, type) + Projects(data, type) + Skills(data, type) + Education(data)
 
 def main():
     with open("configs/data.json", "r") as file:
         data = json.load(file)
 
     for type in data['Tags']:
-        latex_resume = generateResume(Header(data), data, type.lower())
         filepath = "TexFiles/"+ type.capitalize() + "Resume.tex"
         with open(filepath, "w") as file:
-            file.write(latex_resume + Footer())
+            file.write(Header(data) + generateResume(data, type.lower()) + Footer())
 
         # Compile into PDF
         subprocess.run(["lualatex", "-output-directory=PDFs", "TexFiles/{}Resume.tex".format(type.capitalize())])
