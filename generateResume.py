@@ -5,7 +5,7 @@ import subprocess
 def Header(data):
     return r'''%%!TEX program = lualatex
 
-\documentclass[]{../mcdowellcv}
+\documentclass[]{mcdowellcv}
 
 \usepackage{amsmath}
 \usepackage{multicol}
